@@ -1,0 +1,78 @@
+# AI Knowledge Tree
+
+- 机器学习
+  - 有监督学习
+    - 决策树
+      - ID3 算法
+      - C4.5 算法
+      - CART
+    - 线性模型
+      - 回归
+        - 线性回归
+          - 岭回归
+          - LASSO回归
+      - 分类
+        - 感知器
+          - 支持向量机（SVM）
+          - Logistic 回归
+          - Softmax 回归
+          - 人工神经网络 ANN / 多层感知机 MLP
+            - 全联接神经网络（FCN）
+            - 卷积神经网络（CNN）
+            - 自编码器（Auto Encoder）
+            - 限制玻尔兹曼机（RBM）
+            - 深度玻尔兹曼机（DBM）
+            - 深度贝叶斯网络（DBN）
+            - 循环神经网络（RNN）
+              - LSTM
+              - GRU
+            - 生成对抗网络（GAN）
+    - K-近邻（KNN）
+      - 距离度量学习
+    - 贝叶斯（Bayes）
+      - 朴素贝叶斯
+      - 正态贝叶斯
+      - 贝叶斯网络
+    - 线性判别分析（LDA）
+      - 核线性判别分析（KLDA）
+    - 图网络 (Graph Networks)
+      - 空域方法 (Spatial Domain)
+        - GNN: The graph neural network model
+        - GG-NN: Gated Graph Sequence Neural Networks
+        - GCNN: Geodesic convolutional neural networks on Riemannian manifolds
+        - DCNN: Diffusion-Convolutional Neural Networks
+        - ACNN: Learning shape correspondence with anisotropic convolutional neural networks
+        - MoNet: Geometric deep learning on graphs and manifolds using mixture model CNNs
+        - GAT: Graph attention networks
+      - 谱域方法 (Spectral Domain)
+        - SCNN: Spectral networks and locally connected networks on graphs
+        - SmoothSCNN: Deep convolutional networks on graph-structured data
+        - ChebNet: Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering
+        - GCN: Semi-supervised classification with graph convolutional networks
+  - 无监督学习
+    - 降维
+      - 主成分分析（PCA）
+        - 核主成分分析（KPCA）
+      - 流形学习
+        - LLE
+        - 拉普拉斯特征映射
+        - 等距映射
+        - 局部保持映射
+    - 聚类
+      - 层次聚类
+      - K-Means
+      - DBSCAN
+      - OPTICS
+      - Mean Shift
+      - 谱聚类
+      - EM算法
+      - 模态搜索（Mode Seeking）
+        - Mean Shift Density Peak
+  - 强化学习
+    - 策略迭代
+    - 价值迭代
+    - 蒙特卡罗算法
+    - 时序差分算法
+      - SARSA算法
+      - Q学习
+        - DQN 策略梯度
