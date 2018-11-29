@@ -4,11 +4,12 @@
   - 有监督学习
     - 决策树
       - ID3 算法
+        - 浅析ID3 link
       - C4.5 算法
       - CART
     - 线性模型
-      - 回归
-        - 线性回归
+      - 回归/Regression
+        - 线性回归/Linear 
           - 岭回归
           - LASSO回归
       - 分类
