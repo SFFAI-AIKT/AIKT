@@ -20,8 +20,10 @@ This is an open resource project for Artificial Intelligence.
 ### 1. 从Github中找到“SFFAI_AIKT/AIKT”项目
 
 ![image-20181130154445454](./src/AIKT_Title.png)
+                    
+                              图1 - SFFAI_AIKT/AIKT 项目图
 
-<center>图1 - SFFAI_AIKT/AIKT 项目图</center>
+
 
 
 
@@ -31,19 +33,26 @@ This is an open resource project for Artificial Intelligence.
 
 ![image-20181130155020222](./src/md_file_crop.png)
 
-<center>图2 - 选择AI_Knowledge_Tree文件</center>
+                              图2 - 选择AI_Knowledge_Tree文件
+
+
+
 
 
 
 ![image-20181130155401783](./src/Goto_Edit.png)
 
-<center>图3 - AI_Knowledge_Tree文件编辑按钮</center>
+                              图3 - AI_Knowledge_Tree文件编辑按钮
+                              
+                              
 
 
 
 ![image-20181130155630342](./src/Edit_board.png)
 
-<center>图4 - AI_Knowledge_Tree文件编辑界面</center>
+                              图4 - AI_Knowledge_Tree文件编辑界面
+                              
+                              
 
 ### 3. 编辑AIKT 小贴士
 
@@ -65,13 +74,13 @@ This is an open resource project for Artificial Intelligence.
 
 ![image-20181130161348927](./src/summit_update.png)
 
-<center>图5 - AI_Knowledge_Tree文件提交界面</center>
-
-
+                              图5 - AI_Knowledge_Tree文件提交界面
 
 ![image-20181130162207979](./src/sure_summit.png)
 
-<center>图6 - AI_Knowledge_Tree文件确认提交界面</center>
+                              图6 - AI_Knowledge_Tree文件确认提交界面
+                              
+                              
 
 ### 4. 完成编辑
 
