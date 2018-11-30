@@ -1,0 +1,322 @@
+# AI Knowledge Tree
+
+- 机器学习
+  - 有监督学习
+    - 决策树
+      - ID3 算法
+      - C4.5 算法
+      - CART
+    - 线性模型
+      - 回归
+        - 线性回归
+          - 岭回归
+          - LASSO回归
+      - 分类
+        - 感知器
+          - 支持向量机（SVM）
+          - Logistic 回归
+          - Softmax 回归
+          - 人工神经网络 ANN / 多层感知机 MLP
+            - 全联接神经网络（FCN）
+            - 卷积神经网络（CNN）
+            - 自编码器（Auto Encoder）
+            - 限制玻尔兹曼机（RBM）
+            - 深度玻尔兹曼机（DBM）
+            - 深度贝叶斯网络（DBN）
+            - 循环神经网络（RNN）
+              - LSTM
+              - GRU
+            - 生成对抗网络（GAN）
+    - K-近邻（KNN）
+      - 距离度量学习
+    - 贝叶斯（Bayes）
+      - 朴素贝叶斯
+      - 正态贝叶斯
+      - 贝叶斯网络
+    - 线性判别分析（LDA）
+      - 核线性判别分析（KLDA）
+    - 图网络 (Graph Networks)
+      - 空域方法 (Spatial Domain)
+        - GNN: The graph neural network model
+        - GG-NN: Gated Graph Sequence Neural Networks
+        - GCNN: Geodesic convolutional neural networks on Riemannian manifolds
+        - DCNN: Diffusion-Convolutional Neural Networks
+        - ACNN: Learning shape correspondence with anisotropic convolutional neural networks
+        - MoNet: Geometric deep learning on graphs and manifolds using mixture model CNNs
+        - GAT: Graph attention networks
+      - 谱域方法 (Spectral Domain)
+        - SCNN: Spectral networks and locally connected networks on graphs
+        - SmoothSCNN: Deep convolutional networks on graph-structured data
+        - ChebNet: Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering
+        - GCN: Semi-supervised classification with graph convolutional networks
+  - 无监督学习
+    - 降维
+      - 主成分分析（PCA）
+        - 核主成分分析（KPCA）
+      - 流形学习
+        - LLE
+        - 拉普拉斯特征映射
+        - 等距映射
+        - 局部保持映射
+    - 聚类
+      - 层次聚类
+      - K-Means
+      - DBSCAN
+      - OPTICS
+      - Mean Shift
+      - 谱聚类
+      - EM算法
+      - 模态搜索（Mode Seeking）
+        - Mean Shift Density Peak
+  - 强化学习
+    - 策略迭代
+    - 价值迭代
+    - 蒙特卡罗算法
+    - 时序差分算法
+      - SARSA算法
+      - Q学习
+        - DQN 策略梯度
+- 计算机视觉
+  - 图像
+    - 2D图像
+      - 物体分类
+        - 图像粗分类
+          - Lenet-5
+          - Alexnet
+          - VGGNet
+          - GoogleNet
+          - Resnet
+          - DenseNet
+          - SENet
+        - 图像细分类
+          - BCNN：Bilinear CNN Models for Fine-grained Visual Recognition
+      - 物体检测
+        - 双阶段算法
+          - （RCNN）Rich featurehierarchies for accurate object detection and semantic segmentation
+          - （Fast RCNN）Fast-RCNN
+          - （Faster RCNN）Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+        - 单阶段算法
+          - （YOLO）You Only Look Once:Unified, Real-Time Object Detection
+          - （YOLO9000）YOLO9000: Better,Faster,Stronger
+          - （SSD）SSD: Single Shot MultiBox Detector
+          - （FPN）Feature Pyramid Network
+        - 更多算法
+          - DeepID-Net：基于变形深度卷积神经网络进行目标检测
+          - segDeepM：利用深度神经网络中的分割和语境进行目标检测
+          - DeepBox：利用卷积网络学习目标特性
+          - Object detectors emerge in deep scene CNNS
+      - 图像分割
+        - 语义分割
+          - FCN：Fully Convolutional Network
+          - U-Net：Convolutional Networks for Biomedical Image Segmentation
+        - 实例分割
+          - （Mask R-CNN）Mask R-CNN
+      - 目标定位
+        - 人脸定位
+        - 姿态关键点检测
+      - 图像生成
+        - 基于GAN模型
+          - Pix2pix：Image-to-Image Translation with Conditional Adversarial Nets
+          - CycleGAN：Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+          - StarGAN：Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+          - ModularGAN：Modular Generative Adversarial Networks
+        - 图像增强
+          - Gabor滤波器
+          - STFT增强
+    - 3D图像
+  - 视频
+- 自然语言处理
+  - 表示学习
+    - 词表示学习
+    - 句表示学习
+    - 篇章表示学习
+  - 机器翻译
+    - 统计机器翻译
+    - 神经机器翻译
+      - 端对端学习（Sequence to Sequence）
+        - Sequence to Sequence Learning with Neural Networks
+      - 监督机器翻译
+        - 常规机器翻译
+          - 循环神经网络机器翻译
+            - GoogleNMT-Google’s neural machine translation system- Bridging the gap between human and machine translation
+          - 卷积神经网络机器翻译
+            -  Convolutional Sequence to Sequence Learning
+          - 自注意力机器翻译
+            - Attention is all you need
+        - 篇章机器翻译
+          - 篇章翻译评测指标工作
+            - Evaluating Discourse Phenomena in Neural Machine Translation
+          - 编码器重构
+            - Context-Aware Neural Machine Translation Learns Anaphora Resolution
+            - Document-Level Neural Machine Translation with Hierarchical Attention Networks
+          - 解码器重构
+            - Learning to Remember Translation History with a Continuous Cache
+      - 半监督机器翻译
+      - 无监督机器翻译
+        - 模型参数共享
+          - Unsupervised Neural Machine Translation
+          - Google's Multilingual Neural Machine Translation System- Enabling Zero-Shot Translation
+          - Unsupervised Neural Machine Translation with Weight Sharing
+        - 特征空间共享
+          - Unsupervised Machine Translation Using Monolingual Corpora Only
+          - Phrase-Based & Neural Unsupervised Machine Translation
+        - 基于交互的模式无监督翻译
+          - Emergent Translation in Multi-Agent Communication
+          - Zero-Resource Neural Machine Translation with Multi-Agent Communication Game
+  - 知识图谱
+    - 表示学习方法
+      - 基于事实的表示学习方法
+        - 基于距离的评分函数：翻译模型
+          - TransE及其拓展方法
+            - TransE: Translating embeddings for modeling multi-relational data.
+            - TransH: Knowledge graph embedding by translating on hyperplanes.
+            - TransR:  Learning entity and relation embeddings for knowledge graph completion.
+            - TransD, TransSparse, TransM, ManifoldE, TransF, TransA
+          - 高斯分布表示向量
+            - KG2E: Learning to represent knowledge graphs with gaussian embedding.
+        - 基于相似度的评分函数：语义匹配模型
+          - RESCAL及其拓展方法
+            - RESCAL: A three-way model for collective learning on multi-relational data.
+            - HolE: Holographic embeddings of knowledge graphs.
+            - DisMult: Embedding entities and relations for learning and inference in knowledge bases.
+            - ComplEx: Complex embeddings for simple link prediction.
+          - 基于神经网络的语义匹配模型
+            - SME: A semantic matching energy function for learning with multi-relational data.
+            - NAM: Probabilistic reasoning via deep learning: Neural association models.
+        - 模型训练方法
+          - 根据开放世界假设进行训练
+          - 根据封闭世界假设进行训练
+      - 融合多源信息的表示学习方法
+        - 实体类型
+          - SSE: Semantically smooth knowledge graph embedding.
+          - TKRL: Representation learning of knowledge graphs with entity descriptions.
+        - 关系路径
+          - Modeling relation paths for representation learning of knowledge bases.
+        - 逻辑规则
+          - Knowledge base completion using embeddings and rules.
+          - Jointly embedding knowledge graphs and logical rules.
+        - 其它多源信息：文本描述信息, 实体属性, 图结构等
+    - 知识图谱应用
+      - 链路预测
+        - Modeling relation paths for representation learning of knowledge bases.
+      - 三元组分类
+        - Learning entity and relation embeddings for knowledge graph completion.
+      - 实体识别
+        - A semantic matching energy function for learning with multi-relational data.
+        - A three-way model for collective learning on multi-relational data.
+      - 关系抽取
+        - Relation extraction with matrix factorization and universal schemas.
+        - Connecting language and knowledge bases with embedding models for relation extraction.
+      - 自动问答
+      - 推荐系统
+  - 信息抽取
+  - 自动摘要
+  - 情感识别
+  - 句法分析
+  - 命名实体识别
+- 语音处理
+  - 语音识别
+    - 模板匹配法
+    - GMM-HMM（混合高斯-马尔科夫模型）
+      - A scalable approach to using DNN-derived features in GMM-HMM based acoustic modeling for LVCSR.
+    - DNN-HMM（深度学习-马尔科夫模型）
+      - DNN-HMM
+        - Hybrid Deep Neural Network--Hidden Markov Model (DNN-HMM) Based Speech Emotion Recognition
+        - DNN-HMM acoustic models for speech recognition
+      - LSTM-HMM
+        - Long Short-Term Memory Based Recurrent Neural Network Architectures for Large Vocabulary Speech Recognition
+        - IMPROVING LATENCY-CONTROLLED BLSTM ACOUSTIC MODELS FOR ONLINE SPEECH RECOGNITION
+      - CNN
+        - Acoustic modelling from the signal domain using CNN
+        - Convolutional neural networks for speech recognition
+      - Deep CNN
+        - Applying convolutional neural networks concepts to hybrid NN-HMM model for speech recognition
+        - Advances in joint CTC-attention based end-to-end speech recognition with a deep CNN encoder and RNN-LM
+        - Deep convolutional neural networks for LVCSR
+      - DeepSpeech
+        - Deep Speech (Badiu)
+    - 端到端的语音识别（End-to-End）(不成熟)
+      - CTC
+        - Deep Speech 2(Baidu)
+        - Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks
+      - RNN-Transducer
+        - Sequence Transduction with Recurrent Neural Networks
+        - Exploring Neural Transducers For End-to-End Speech Recognition
+      - Attention-based Sequence-to-Sequence
+        - Listen Attend and Spell
+        - State-Of-The-Art Speech Recognition With Sequence-to-Sequence Models
+      - End-to-End Lattice-free MMI
+        - End-to-end speech recognition using lattice-free MMI
+  - 语音生成
+- 图像图形学
+  - 图像风格化
+    - 非真实感图形学
+      - 基于笔触渲染的方(Strokebased Rendering)
+      - 基于图像类比的方法(Image Analogy)
+      - 基于图像滤波的方法(Image Filtering)
+    - 纹理建模
+      - 基于统计分布的参数化纹理建模方法（Parametric Texture Modelling with Summary Statistics）
+      - 基于MRF的非参数化纹理建模方法（Non-parametric Texture Modelling with MRFs）
+    - 图像重建
+      - 基于在线图像优化的慢速图像重建方法（Slow Image Reconstruction based on Online Image Optimisation）
+        - 基于统计分布的参数化慢速风格化迁移算法(Parametric Slow Neural Method with Summary Statistics)：Image Style Transfer Using Convolutional Neural Networks
+        - 基于MRF的非参数化慢速风格化迁移算法(Non-parametric Slow Neural Method with MRFs)：Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis
+      - 基于离线模型优化的快速图像重建方法（Fast Image Reconstruction based on Offline Model Optimisation）
+        - 单模型单风格的快速风格化迁移算法(Per-Style-Per-Model Fast Neural Method)
+          - 基于统计分布的参数化快速风格化PSPM算法
+            - Texture Networks: Feed-forward Synthesis of Textures and Stylized Images
+            - Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+          - 基于MRF的非参数化PSPM算法： Precomputed Real-Time Texture Synthesis with Markovian Generative Adversarial Networks
+        - 单模型多风格的快速风格化迁移算法(Multiple-Style-Per-Model Fast Neural Method)
+          -  A Learned Representation for Artistic Style
+          - StyleBank: An Explicit Representation for Neural Image Style Transfer
+          -  Multi-style Generative Network for Real-time Transfer
+          - Diversified Texture Synthesis With Feed-Forward Networks
+        - 单模型任意风格的快速风格化迁移算法(Arbitrary-Style-Per-Model Fast Neural Method)
+          -  Fast Patch-based Style Transfer of Arbitrary Style
+          - Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization
+          - Exploring the Structure of a Real-time, Arbitrary Neural Artistic Stylization Network
+          -  Universal Style Transfer via Feature Transforms
+- 类脑智能（Brain-inspired Artificial Intelligence）
+  - 认知脑计算模型
+    - 多尺度、多脑区协同的认知脑计算模型
+      - 多认知任务协同计算组件
+      - 多脑区交互计算组件
+      - 脑区计算组件
+        - 皮质柱计算组件
+        - 皮质微柱计算组件
+        - 不同类型神经元计算组件
+        - 其他类型神经微环路计算组件
+        - 突触连接的计算组件
+    - 认知／智能行为的类脑学习机制
+      - Hebbian学习法则
+      - STDP可塑性机制
+    - 不同认知功能协同的类脑计算模型
+      - 感知
+      - 学习
+      - 记忆
+      - 决策
+      - 推理
+      - 规划
+      - 意识
+      - 情感
+  - 类脑信息处理
+    - 感知信息特征表达与语义识别模型
+    - 多模态协同自主学习理论与方法
+    - 多模态感知大数据处理与理解的高效计算方法
+    - 类脑语言处理模型与算法
+  - 类脑芯片与类脑计算体系结构
+    - 脑信息处理基本单元
+    - 不同尺度信息处理单元之间的交互协同
+    - 软件环境支持
+  - 类脑智能机器人与人机协同
+    - 类脑的多模态感知
+    - 基于感知信息的类脑自主决策与学习
+    - 基于认知脑计算模型、类脑信息处理的机机器脑
+    - 机器人自主学习与人机交互平台
+  - 脑科学知识引擎
+    - 不同尺度脑组成部分的形态、电生理基础数据
+    - 不同尺度脑组成部分的关联
+    - 认知功能、疾病、脑组成的关联
+- 机器人学
+- 控制论
