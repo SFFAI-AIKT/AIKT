@@ -30,7 +30,7 @@
     - K-近邻（KNN）
       - 距离度量学习
     - 贝叶斯（Bayes）
-      - 朴素贝叶斯
+      - 朴素贝叶      
       - 正态贝叶斯
       - 贝叶斯网络
     - 线性判别分析（LDA）
@@ -79,7 +79,7 @@
 - 计算机视觉
   - 图像
     - 2D图像
-      - 物体分类
+      - 物体识别
         - 图像粗分类
           - Lenet-5
           - Alexnet
@@ -90,6 +90,16 @@
           - SENet
         - 图像细分类
           - BCNN：Bilinear CNN Models for Fine-grained Visual Recognition
+        - 度量学习
+          - 综述：Distance metric learning a comprehensive survey
+          - 有监督度量学习
+            - Information-theoretic metric learning
+            - Distance metric learning for large margin nearest neighbor classification
+            - Learning the parts of objects by non-negative matrix factorization
+            - Neighbourhood components analysis
+            - Metric Learning by Collapsing Classes
+          - 无监督度量学习
+            - Distance metric learning with application to clustering with side-information
       - 物体检测
         - 双阶段算法
           - （RCNN）Rich featurehierarchies for accurate object detection and semantic segmentation
